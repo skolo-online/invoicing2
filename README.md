@@ -1,4 +1,4 @@
-# invoicing2
+# Create Invoicing App with Python Django and Bootstrap Part 2
 Create an Invoice Tutorial part 2
 
 This is the second tutorial in the lecture series - Creating your own invoicing application from scratch using Python Django
