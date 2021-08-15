@@ -1,0 +1,86 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+
+{% block main %}
+<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+  <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Dashboard</h1>
+    <div class="btn-toolbar mb-2 mb-md-0">
+      <div class="btn-group me-2">
+        <button type="button" class="btn btn-sm btn-outline-secondary">Print</button>
+        <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas> -->
+
+  <h2>My Invoices</h2>
+  <div class="table-responsive">
+    <table class="table table-striped table-sm">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Client</th>
+          <th scope="col">Description</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr>
+          <td>1,001</td>
+          <td>Sasol Mining</td>
+          <td>Generation of works related to the new project on Medupe</td>
+          <td>R1,000.00</td>
+          <td>CURRENT</td>
+        </tr>
+
+        <tr>
+          <td>1,002</td>
+          <td>Eskom</td>
+          <td>This was the realisation of dreaming chronicles on top of mount Sinai</td>
+          <td>R3,020.00</td>
+          <td>OVERDUE</td>
+        </tr>
+
+        <tr>
+          <td>1,003</td>
+          <td>Tongaat Hullet</td>
+          <td>Building the website that was the rocking nations dream for centuries</td>
+          <td>R10,020.00</td>
+          <td>PAID</td>
+        </tr>
+
+        <tr>
+          <td>1,004</td>
+          <td>Sasol Mining</td>
+          <td>Generation of works related to the new project on Medupe</td>
+          <td>R1,000.00</td>
+          <td>CURRENT</td>
+        </tr>
+
+        <tr>
+          <td>1,005</td>
+          <td>Eskom</td>
+          <td>This was the realisation of dreaming chronicles on top of mount Sinai</td>
+          <td>R3,020.00</td>
+          <td>OVERDUE</td>
+        </tr>
+
+        <tr>
+          <td>1,006</td>
+          <td>Tongaat Hullet</td>
+          <td>Building the website that was the rocking nations dream for centuries</td>
+          <td>R10,020.00</td>
+          <td>PAID</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+</main>
+{% endblock %}
